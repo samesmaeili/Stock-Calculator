@@ -25,7 +25,7 @@ def getPrice():
         return
 
     floatPrice = float(price)
-    print("Price for " + code + " is: $" + format(floatPrice, '.2f'))
+    print("Price for " + code.upper() + " is: $" + format(floatPrice, '.2f'))
 
     return floatPrice
 
